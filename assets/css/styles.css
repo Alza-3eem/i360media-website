@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap');
+
+html,
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+width: 100%;
+height: 50px;
+padding-bottom: 32px;
+padding-top: 16px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+background: rgba(50, 50, 50, 0.3);
+color: #ccc;
+}
+
+.logo {
+    height: 200px;
+    width: auto;
+}
+
+.nav {
+display: flex;
+justify-content: space-around;
+width: 30%;
+font-family: "SUSE", sans-serif;
+font-weight: 300;
+}
+
+.navlink {
+list-style: none;
+margin: 0;
+
+}
+
+.navlink a {
+color: #ccc;
+text-decoration: none;
+font-size: 1.2em;
+}
+
+#container1, #container2, #container3, #container4, #container5 {
+    width: 100vw;
+    height: 120vh;
+}
+
+#container1 {
+    background-image: url('/assets/images/richard-horvath-_nWaeTF6qo0-unsplash\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.hero-text {
+    font-family: "Oxanium", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    width: 40%;
+    margin-top: 220px;
+    margin-left: 64px;
+    margin-right: auto;
+    padding: 48px;
+    color: #ccc;
+    text-align: right;
+}
+
+.projects-btn {
+    height: 72px;
+    width: 280px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ccc;
+    font-size: 32px;
+    font-family: "SUSE", sans-serif;
+    border: none;
+    border-radius: 15px;
+    margin-right: 300px;
+    margin-top: 320px;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+
+#container2 {
+    background-color: #0c1c64;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+#container2>h1 {
+    color: #ccc;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    margin-top: -80px;
+}
+
+.card-wrapper {
+    display: flex;
+    gap: 64px;
+}
+
+.info-card {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-card>div {
+    padding: 32px;
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 36px;
+    font-size: 1.2rem;
+}
