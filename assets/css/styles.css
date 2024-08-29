@@ -62,9 +62,9 @@ font-size: 1.2em;
 .hero-text {
     font-family: "Oxanium", sans-serif;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 56px;
     width: 40%;
-    margin-top: 220px;
+    margin-top: 210px;
     margin-left: 64px;
     margin-right: auto;
     padding: 48px;
@@ -125,4 +125,11 @@ font-size: 1.2em;
     color: #ccc;
     margin-bottom: 36px;
     font-size: 1.2rem;
+}
+
+.card-pic {
+    background-image: url('../images/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 240px;
 }
